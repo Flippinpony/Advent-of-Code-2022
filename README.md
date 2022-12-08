@@ -1,1 +1,2 @@
 Advent of Code solutions!
+Disclaimer: I'm using this as an opportunity to improve my instinctual scripting chops, meaning my solutions are neither elegant nor efficient. My goal here is to see what I can do quickly off the top of my head, then do some research between days to learn how I might have gotten to the answer faster or condensed some of my uglier loops into fewer lines. Please pardon all of the crimes I've commited here.
