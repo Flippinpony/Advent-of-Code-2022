@@ -147,8 +147,6 @@ def sim_path(map, path, start, part1):
         if step.isdigit():
             count = int(step)
             for i in range(count):
-                if pos == (17,105):
-                    print("here")
                 target = tuple(sum(n) for n in zip(pos, movement_mask[facing]))
                 if target not in map or map[target] == "":
                     # need to loop
@@ -160,7 +158,6 @@ def sim_path(map, path, start, part1):
                 if map[target] == ".":
                     # safe to move
                     #print(f"Moving to {target}")
-                    print((pos[0],pos[1]))
                     pos = target
                     if target_facing >= 0:
                         facing = target_facing
